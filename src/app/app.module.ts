@@ -1,14 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import {
-  MatToolbarModule, MatMenuModule,
-  MatButtonModule, MatInputModule,
-  MatSidenavModule, MatGridListModule,
-  MatSelectModule, MatDividerModule,
-  MatIconModule, MatFormFieldModule, MatCardModule, MatListModule, MatProgressBarModule
-} from '@angular/material';
-
+import { AppMaterialModule } from './AppMaterialModule.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -17,23 +10,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatToolbarModule,
-    MatSidenavModule,
-    MatGridListModule,
-    MatIconModule,
-    MatButtonModule,
-    MatDividerModule,
-    MatCardModule,
-    MatMenuModule,
-    MatListModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatSelectModule,
-    MatProgressBarModule,
-
+    AppMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
