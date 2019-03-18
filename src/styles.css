@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 *body{margin: 0px; padding: 0px;}
+.mat-card-showdowLess {
+    box-shadow: none !important;
+}
 
 #first{
  background-image: url("./assets/images/bg_main.png");
@@ -13,6 +16,9 @@ margin-left: 10%;
 }
 #arrow{float: right;}
 .text-box{color:red;}
+
+
+
 
 #btn_background{
 	 background-image: url("./assets/images/bg_btn.png");

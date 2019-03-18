@@ -14,7 +14,7 @@ import {
         MatSelectModule, MatDividerModule,
         MatIconModule, MatFormFieldModule, MatCardModule, MatListModule, MatProgressBarModule
        ],
-      exports:[ MatToolbarModule, MatMenuModule,
+      exports: [ MatToolbarModule, MatMenuModule,
         MatButtonModule, MatInputModule,
         MatSidenavModule, MatGridListModule,
         MatSelectModule, MatDividerModule,
