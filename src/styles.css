@@ -17,7 +17,14 @@ margin-left: 10%;
 #arrow{float: right;}
 .text-box{color:red;}
 
-
+.matCardwithnoborder{
+	border-bottom-style: none;
+}
+.btn-xl {
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
 
 
 #btn_background{
@@ -30,10 +37,11 @@ margin-left: 10%;
 #btn-internal{
 	margin-top:10px;
 
+
 }
 #main-social{
 margin-top: 6%;
-
+color: #C71B1B;
 }
 
 #ist-row{
