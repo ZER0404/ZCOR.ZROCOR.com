@@ -9,16 +9,16 @@ import {
 
   @NgModule({
       imports: [MatToolbarModule, MatMenuModule,
-        MatButtonModule, MatInputModule,
+        MatButtonModule, MatIconModule, MatInputModule,
         MatSidenavModule, MatGridListModule,
         MatSelectModule, MatDividerModule,
-        MatIconModule, MatFormFieldModule, MatCardModule, MatListModule, MatProgressBarModule
+         MatFormFieldModule, MatCardModule, MatListModule, MatProgressBarModule
        ],
       exports: [ MatToolbarModule, MatMenuModule,
-        MatButtonModule, MatInputModule,
+        MatButtonModule, MatInputModule, MatIconModule,
         MatSidenavModule, MatGridListModule,
         MatSelectModule, MatDividerModule,
-        MatIconModule, MatFormFieldModule, MatCardModule, MatListModule, MatProgressBarModule
+         MatFormFieldModule, MatCardModule, MatListModule, MatProgressBarModule
       ]
   })
 export class AppMaterialModule {
